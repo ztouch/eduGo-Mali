@@ -1,0 +1,68 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.wrapper
+{
+	height: 100vh;
+
+}
+/*Styling the Sign Up Page*/
+
+.login{
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+.login-banner{
+	width: 49%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-right: 60px;
+}
+.login-banner img{
+	width: 100%;
+	margin: 100px auto;
+}
+.login-form{
+		width: 50%;
+		line-height: 40px;
+		margin-left: 20vw;
+		text-align: center;
+		position: relative;
+		top: 15vh;
+}
+.login-form table tr{
+	padding: 20px;
+	margin: 20px auto;
+}
+.login-form table tr h3{
+	font-size: 30px;
+}
+.login-form table tr h3 span, sub{
+	color: #1C90F5;
+}
+.login-form table tr input, select{
+	width: 100%;
+	padding: 15px;
+	margin: 10px auto;
+	border: none;
+	border-bottom: 1px solid #1C90F5;
+}
+.login-form table tr button{
+	border: none;
+	border-radius: 40px;
+  	padding: 20px;
+  	margin: 10px;
+  	cursor: pointer;
+  	box-shadow: 0 0 16px 2px;
+  	background-color: #1C90F5;
+	color: #ffff;
+	position: relative;
+	width: 100%;
+	font-size: 20px;
+
+}
